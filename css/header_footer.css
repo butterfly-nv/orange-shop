@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.navbar-brand img {
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+}
+
+/* footer */
+    .custom-footer {
+      background-color: #f9a89b;
+      padding: 40px 10px;
+    }
+
+    .footer-heading {
+      font-weight: bold;
+      border-bottom: 2px solid black;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    .footer-link i {
+      margin-right: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      border: 0;
+    }
+
+    @media (max-width: 768px) {
+      iframe {
+        height: 200px;
+      }
+    }
+
+    @media (min-width: 769px) {
+      iframe {
+        height: 250px;
+      }
+    }
