@@ -1,5 +1,5 @@
 .text-orange-cambodia {
-  color: #FCB5A8;
+    color: #FCB5A8;
 }
 .bg-rating {
     background-color: #FCB5A8 ;
@@ -9,4 +9,18 @@
 }
 .star-color {
     color: yellow;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1); /* black */
+}
+
+.btn.btn-outline-danger.btn-lg {
+    border-color: #000000;
+    color: #d71f1f;
+}
+.btn.btn-outline-danger.btn-lg:hover {
+    background-color: #d71f1f !important;
+    color: #ffffff !important;
+    border-color: white;
 }

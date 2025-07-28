@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +16,54 @@
 
 <body class="container py-5 space-x-4">
     <nav id="header" class="navbar navbar-expand-lg"></nav>
+
+        <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class="row align-items-center g-4" style="height: 90%;">
+            <div class="col-md-6 space-y-2 text-center">
+                <p class="ml-2 fw-bold">SPRING/SUMMER 2025</p>
+                <p class="fw-bold" style="font-size: 5rem; color: #FF9494;">Sale 30%</p>
+                <p class="fw-bold" style="color: #756f6f; font-size: 3rem;">Off Everything</p>
+                <a class="btn btn-outline-danger btn-lg" href="shop.html">Shop Now !</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="images/slideshow.png" alt="logo" class="img-fluid" width="60%" height="60%">
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+        <div class="row align-items-center g-4" style="height: 90%;">
+            <div class="col-md-6 text-center">
+                <img src="images/bag6.jpg" alt="logo" class="img-fluid" width="75%" height="60%">
+            </div>
+            <div class="col-md-6 space-y-2 text-center">
+                <p class="fw-bold" style="font-size: 5rem; color: #FF9494;">New Arrival</p>
+                <p class="fw-bold" style="color: #756f6f; font-size: 3rem;">Fashion Bag</p>
+                <a class="btn btn-outline-danger btn-lg" href="shop.html">Shop Now !</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+
     <div>
         <div class="row align-items-center g-4">
             <div class="col-md-6">
@@ -110,3 +157,4 @@
 
     <script src="js/header_footer.js"></script>
 </body>
+</html>
