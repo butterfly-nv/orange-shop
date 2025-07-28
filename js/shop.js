@@ -1,56 +1,56 @@
 const clothes=[
     {
         image: "images/clothe1.jpg",
-        Title: "Shirt",
-        price: '$10.0'
+        Title: "Navy Fitted V-Neck Tee",
+        price: '$ 10.00'
 
     },
     {
         image: "images/clothe2.jpg",
-        Title: "Shirt",
-        price: '$11.0'
+        Title: "Brown Plaid Off-Shoulder Top with Ties ",
+        price: '$ 10.00'
     },
     {
         image: "images/clothe3.jpg",
-        Title: "Shirt",
-        price: '$9.0'
+        Title: "GypsyBrown Puff Sleeve Corset-Style Blouse",
+        price: '$ 9.00'
     },
     {
         image: "images/clothe4.jpg",
-        Title: "Shirt",
-        price: '$10$'
+        Title: "Striped Navy and White Polo Shirt",
+        price: '$ 10.00'
     },
     {
         image: "images/clothe5.jpg",
-        Title: "Shirt",
-        price: '$11.0'
+        Title: "Light Blue Wrap Blouse ",
+        price: '$ 11.00'
     },
     {
         image: "images/clothe6.jpg",
-        Title: "Shirt",
-        price: '$9.0'
+        Title: "Striped Asymmetrical Wrap Top",
+        price: '$ 9.00'
     },
     {
         image: "images/clothe7.jpg",
-        Title: "Shirt",
-        price: '$9.0'
+        Title: "Baby Blue Ruffle Blouse",
+        price: '$ 9.00'
     },
     {
         image: "images/clothe8.jpg",
-        Title: "Shirt",
-        price: '$7.99'
+        Title: "White Puff Sleeve Peplum Top with Dots ",
+        price: '$ 7.99'
     },
     {
         image: "images/clothe9.jpg",
-        Title: "Shirt",
-        price: '$9.99'
+        Title: "Cream Long-Sleeve Knit Top with Pink Bow&Lace Trim",
+        price: '$ 9.99'
     }
 ];
 
 let clothe= '';
 for (let i=0; i< clothes.length; i++){
     clothe +=` <div class="col-lg-4 col-md-6 col-sm-12 ">
-                      <div class="product-card">
+                        <div class="product-card">
                         <div class="product-image py-5">
                             <img  src="${clothes[i].image}" alt="T-shirt" class="product-img" />
                         </div>
@@ -66,49 +66,49 @@ document.getElementById("clothes").innerHTML = clothe;
 const bags=[
     {
         image: "images/bag10.jpg",
-        Title: "New Bag",
-        price: '$10.99'
+        Title: "Glossy Black Shoulder Bag",
+        price: '$ 10.99'
 
     },
     {
         image: "images/bag11.jpg",
-        Title: "New Bag",
-        price: '$11.99'
+        Title: "New Dark Red Patent Leather Bag",
+        price: '$ 11.99'
     },
     {
         image: "images/bag12.jpg",
-        Title: "Shirt",
-        price: '$9.99'
+        Title: "Navy Blue Glossy Bag",
+        price: '$ 9.99'
     },
     {
         image: "images/bag4.jpg",
-        Title: "Shirt",
-        price: '$10.99'
+        Title: "Lavender Textured Shoulder Bag ",
+        price: '$ 10.99'
     },
     {
         image: "images/bag5.jpg",
-        Title: "New Bag",
-        price: '7.99'
+        Title: "Light Purple Chain Bag",
+        price: '$ 7.99'
     },
     {
         image: "images/bag6.jpg",
-        Title: "New Bag",
-        price: '$8.99'
+        Title: "Silky Blue Twist Bag",
+        price: '$ 8.99'
     },
     {
         image: "images/bag7.jpg",
-        Title: "New Bag",
-        price: '$13.99'
+        Title: "Blush Pink Pearl Handle Bag",
+        price: '$ 13.99'
     },
     {
         image: "images/bag8.jpg",
-        Title: "New Bag",
-        price: '$12.99'
+        Title: "Gray-Pink Ribbon Crossbody",
+        price: '$ 12.99'
     },
     {
         image: "images/bag9.jpg",
-        Title: "New Bag",
-        price: '$8.99'
+        Title: "Black Plush Bunny Bag",
+        price: '$ 8.99'
     }
 ];
 
@@ -133,48 +133,48 @@ document.getElementById("bag").innerHTML = bag;
 const shoes=[
     {
         image: "images/shoe1.jpg",
-        Title: "New Shoe",
+        Title: "New ShoeGlossy Burgundy Mary Jane Flats",
         price: '$10.0'
 
     },
     {
         image: "images/shoe2.jpg",
-        Title: "New Shoe",
+        Title: "Black Pointed Stiletto Heels",
         price: '$11.99'
     },
     {
         image: "images/shoe3.jpg",
-        Title: "New Shoe",
+        Title: "White Ankle Strap Heels with Bow Detail ",
         price: '$9.99'
     },
     {
         image: "images/shoe4.jpg",
-        Title: "New Shoe",
+        Title: "Black Platform Combat Boots ",
         price: '$10.99'
     },
     {
         image: "images/shoe5.jpg",
-        Title: "Best Seller",
+        Title: "Burgundy Lace-Up Dr. Martens Style Boots",
         price: '$15.99'
     },
     {
         image: "images/shoe6.jpg",
-        Title: "Best Seller",
+        Title: "Black Winter Boots with Fur Cuff",
         price: '$17.99'
     },
     {
         image: "images/shoe7.jpg",
-        Title: "Best Seller",
+        Title: "Beige and White Nike Sneakers",
         price: '$11.99'
     },
     {
         image: "images/shoe8.jpg",
-        Title: "Best Seller",
+        Title: "Classic Red High-Top Converse Sneakers",
         price: '$8.99'
     },
     {
         image: "images/shoe9.jpg",
-        Title: "Best Seller",
+        Title: "Chunky White Running Sneakers",
         price: '$11.99'
     }
 ];
