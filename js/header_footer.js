@@ -35,10 +35,18 @@ let footer=`<div class="container">
 
                     <!-- Follow Us -->
                     <div class="col-md-4 mb-4">
-                    <h5 class="footer-heading">Follow Us</h5>
-                    <p class="footer-link"><i class="bi bi-facebook"></i> Orange Shop</p>
-                    <p class="footer-link"><i class="bi bi-instagram"></i> Orange Shop</p>
-                    <p class="footer-link"><i class="bi bi-tiktok"></i> Orange Shop</p>
+                        <h5 class="footer-heading">Follow Us</h5>
+                        <div class="social-links d-flex flex-column gap-2">
+                            <a href="https://www.facebook.com/profile.php?id=100063733149127 target="_blank" class="footer-link" target="_blank">
+                                <i class="bi bi-facebook me-2"></i> Orange Shop
+                            </a>
+                            <a href="https://www.instagram.com/orange_cambodia.new/ target="_blank" class="footer-link" target="_blank">
+                                <i class="bi bi-instagram me-2"></i> Orange Shop
+                            </a>
+                            <a href="https://www.tiktok.com/@orange_cambodia?_t=ZS-8yYgfedrBaf&_r=1 target="_blank" class="footer-link" target="_blank">
+                                <i class="bi bi-tiktok me-2"></i> Orange Shop
+                            </a>
+                        </div>
                     </div>
 
                     <!-- Contact Us -->
