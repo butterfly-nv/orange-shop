@@ -1,6 +1,7 @@
 .navbar {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+     color: #402A26;
 }
 .navbar-brand img {
     height: 60px;
@@ -12,6 +13,7 @@
     .custom-footer {
       background-color: #f9a89b;
       padding: 40px 10px;
+      color: #402A26;
     }
 
     .footer-heading {
@@ -23,6 +25,15 @@
 
     .footer-link i {
       margin-right: 10px;
+    }
+
+    .footer-link {
+      color: #402A26;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      transition: color 0.3s ease;
     }
 
     iframe {
