@@ -1,5 +1,5 @@
 let header=`<div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="images/logo.jpg" alt="Logo" />
                 </a>
                 <button
